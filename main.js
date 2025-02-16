@@ -36,7 +36,7 @@
     }
 
     let movingDisc = this.GameBoard[fromPeg].slice(-1)[0]; // Gets the top disc //
-    let targetDisc = this.GameBoard[toPeg].slice(-1)[0]; // Gets the top disc of target peg
+    let targetDisc = this.GameBoard[toPeg].slice(-1)[0]; // Gets the top disc of the target peg //
 
   // Checks if the move is valid (larger discs cannot go on smaller discs) //
     if (targetDisc !== undefined && movingDisc > targetDisc) {
